@@ -5,5 +5,5 @@ router=DefaultRouter()
 router.register('meal',views.Mealviewset)
 router.register('rating',views.Ratingviewset)
 urlpatterns = [
-    path('api/viewset/',include(router.urls))
+    path('viewset/',include(router.urls))
 ]

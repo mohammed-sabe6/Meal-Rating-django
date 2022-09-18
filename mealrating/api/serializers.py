@@ -9,4 +9,4 @@ class Ratingserializer(serializers.ModelSerializer):
 class Mealserializer(serializers.ModelSerializer):
     class Meta():
         model=Meal
-        fields='__all__'
+        fields=['title','description','number_of_rating','average_of_rating',]
