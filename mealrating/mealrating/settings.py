@@ -27,7 +27,7 @@ SECRET_KEY= config('SECRET_KEY')
 # DEBUG = True
 DEBUG=config('DEBUG')
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 ALLOWED_HOSTS = ['127.0.0.1','.localhost', 'mealrating3.herokuapp.com']
 
 
